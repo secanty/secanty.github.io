@@ -59,7 +59,7 @@
   isHome: true,
   isHighlightShrink: false,
   isToc: false,
-  postUpdate: '2024-03-21 09:31:20',
+  postUpdate: '2024-03-21 09:32:21',
   postMainColor: '',
 }</script><noscript><style type="text/css">
   #nav {
@@ -444,23 +444,22 @@ queueMicrotask(() => {
     updateHtml();
   }, 1000);
 })();</script><div class="js-pjax"><script>function subtitleType () {
-  getScript('https://sdk.jinrishici.com/v2/browser/jinrishici.js').then(() => {
-    jinrishici.load(result =>{
-      if (true) {
-        const sub = ["生活明朗&#44;万物可爱&#44;人间值得&#44;未来可期."]
-        const content = result.data.content
-        sub.unshift(content)
-        window.typed = new Typed('#subtitle', {
-          strings: sub,
-          startDelay: 300,
-          typeSpeed: 150,
-          loop: true,
-          backSpeed: 50,
-        })
-      } else {
-        document.getElementById('subtitle').innerHTML = result.data.content
-      }
-    })
+  getScript('https://yijuzhan.com/api/word.php?m=js').then(() => {
+    const con = str[0]
+    if (true) {
+      const from = '出自 ' + str[1]
+      const sub = ["生活明朗&#44;万物可爱&#44;人间值得&#44;未来可期."]
+      sub.unshift(con, from)
+      window.typed = new Typed('#subtitle', {
+        strings: sub,
+        startDelay: 300,
+        typeSpeed: 150,
+        loop: true,
+        backSpeed: 50,
+      })
+    } else {
+      document.getElementById('subtitle').innerHTML = con
+    }
   })
 }
 
