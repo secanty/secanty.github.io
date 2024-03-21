@@ -1,4 +1,4 @@
-<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"><title>Secant - 海阔凭鱼跃，天高任鸟飞</title><meta name="author" content="Secant,secant@secant.top"><meta name="copyright" content="Secant"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#f7f9fe"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-touch-fullscreen" content="yes"><meta name="apple-mobile-web-app-title" content="Secant"><meta name="application-name" content="Secant"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="#f7f9fe"><meta property="og:type" content="website"><meta property="og:title" content="Secant"><meta property="og:url" content="https://secant.top/index.html"><meta property="og:site_name" content="Secant"><meta property="og:description"><meta property="og:locale" content="zh-CN"><meta property="og:image" content="https://secant.top/202403202336759.jpg"><meta property="article:author" content="Secant"><meta property="article:tag"><meta name="twitter:card" content="summary"><meta name="twitter:image" content="https://secant.top/202403202336759.jpg"><meta name="description"><link rel="shortcut icon" href="/favicon.ico"><link rel="canonical" href="https://secant.top/"><link rel="preconnect" href="//cdn.cbd.int"/><meta name="google-site-verification" content="xxx"/><meta name="baidu-site-verification" content="code-xxx"/><meta name="msvalidate.01" content="xxx"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.cbd.int/node-snackbar@0.1.16/dist/snackbar.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.cbd.int/@fancyapps/ui@5.0.28/dist/fancybox/fancybox.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/swiper/swiper.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://secant.top/202403202200686.ttf" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no"><title>Secant - 海阔凭鱼跃，天高任鸟飞</title><meta name="author" content="Secant,secant@secant.top"><meta name="copyright" content="Secant"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#f7f9fe"><meta name="mobile-web-app-capable" content="yes"><meta name="apple-touch-fullscreen" content="yes"><meta name="apple-mobile-web-app-title" content="Secant"><meta name="application-name" content="Secant"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="#f7f9fe"><meta property="og:type" content="website"><meta property="og:title" content="Secant"><meta property="og:url" content="https://secant.top/index.html"><meta property="og:site_name" content="Secant"><meta property="og:description"><meta property="og:locale" content="zh-CN"><meta property="og:image" content="https://secant.top/202403202336759.jpg"><meta property="article:author" content="Secant"><meta property="article:tag"><meta name="twitter:card" content="summary"><meta name="twitter:image" content="https://secant.top/202403202336759.jpg"><meta name="description"><link rel="shortcut icon" href="/favicon.ico"><link rel="canonical" href="https://secant.top/"><link rel="preconnect" href="//cdn.cbd.int"/><meta name="google-site-verification" content="xxx"/><meta name="baidu-site-verification" content="code-xxx"/><meta name="msvalidate.01" content="xxx"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.cbd.int/node-snackbar@0.1.16/dist/snackbar.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.cbd.int/@fancyapps/ui@5.0.28/dist/fancybox/fancybox.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://npm.elemecdn.com/anzhiyu-theme-static@1.0.0/swiper/swiper.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = {
   linkPageTop: undefined,
   peoplecanvas: undefined,
   postHeadAiDescription: {"enable":true,"gptName":"AnZhiYu","mode":"local","switchBtn":false,"btnLink":"https://afdian.net/item/886a79d4db6711eda42a52540025c377","randomNum":3,"basicWordCount":1000,"key":"xxxx","Referer":"https://xx.xx/"},
@@ -59,7 +59,7 @@
   isHome: true,
   isHighlightShrink: false,
   isToc: false,
-  postUpdate: '2024-03-21 09:01:24',
+  postUpdate: '2024-03-21 09:31:20',
   postMainColor: '',
 }</script><noscript><style type="text/css">
   #nav {
@@ -444,13 +444,12 @@ queueMicrotask(() => {
     updateHtml();
   }, 1000);
 })();</script><div class="js-pjax"><script>function subtitleType () {
-  fetch('https://v1.hitokoto.cn')
-    .then(response => response.json())
-    .then(data => {
+  getScript('https://sdk.jinrishici.com/v2/browser/jinrishici.js').then(() => {
+    jinrishici.load(result =>{
       if (true) {
-        const from = '出自 ' + data.from
         const sub = ["生活明朗&#44;万物可爱&#44;人间值得&#44;未来可期."]
-        sub.unshift(data.hitokoto, from)
+        const content = result.data.content
+        sub.unshift(content)
         window.typed = new Typed('#subtitle', {
           strings: sub,
           startDelay: 300,
@@ -459,9 +458,10 @@ queueMicrotask(() => {
           backSpeed: 50,
         })
       } else {
-        document.getElementById('subtitle').innerHTML = data.hitokoto
+        document.getElementById('subtitle').innerHTML = result.data.content
       }
     })
+  })
 }
 
 if (true) {
