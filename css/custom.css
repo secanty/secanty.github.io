@@ -1,5 +1,5 @@
 #web_bg {
-    background: url("https://secant.top/file/202404212329465.jpg");
+    background: url(https://secant.top/file/202404212329465.jpg) top / cover no-repeat;
     /*background: -webkit-linear-gradient(0deg,*/
     /*        rgba(247, 149, 51, 0.1) 0,*/
     /*        rgba(243, 112, 85, 0.1) 15%,*/
