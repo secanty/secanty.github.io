@@ -10927,7 +10927,6 @@ canvas:not(#ribbon-canvas) {
 }
 #page-header.post-bg.nav-fixed #nav {
   background: var(--anzhiyu-card-bg);
-  outline: 1px solid var(--anzhiyu-card-border);
   -webkit-transform: translateZ(0);
   -moz-transform: translateZ(0);
   -o-transform: translateZ(0);
@@ -10951,7 +10950,6 @@ canvas:not(#ribbon-canvas) {
   }
   #page-header.post-bg.nav-fixed #nav {
     background: var(--anzhiyu-card-bg);
-    outline: 1px solid var(--anzhiyu-card-border);
   }
 }
 #page-header #post-info {
@@ -11063,7 +11061,6 @@ canvas:not(#ribbon-canvas) {
   position: fixed;
   z-index: 91;
   background: var(--anzhiyu-card-bg);
-  outline: 1px solid var(--anzhiyu-card-border);
   -webkit-transform: translateZ(0);
   -moz-transform: translateZ(0);
   -o-transform: translateZ(0);
