@@ -4,6 +4,29 @@
   
     
     <entry>
+      <title>适用于 Windows 的 Adobe 全家桶激活工具</title>
+      <link href="/posts/2.html"/>
+      <url>/posts/2.html</url>
+      
+        <content type="html"><![CDATA[<p><span style="font-size: 2em; display: block; text-align: center; color: rgba(255,255,255,0.9); font-weight: bold;"><span class='p anzhiyufont anzhiyu-icon-fan red h1'></span> 前言</span></p><p>推荐一个适用于<a href="#pre">适用于 Windows 的 Adobe 全家桶激活工具</a>，截至 <strong>2024 年 8 月 12 日</strong>，激活工具可用于激活<a href="#notification">当前最新版本</a>（具体版本号可在文末注意事项中查看），其他版本自行测试。下面，将以激活 Photoshop 为例演示如何使用该工具进行激活 Adobe 全家桶。</p><p><strong>请注意</strong>：本教程<strong>仅供学习交流使用</strong>，请支持正版软件，遵守法律法规。</p><h2 id="准备工作"><span id="pre">准备工作</span></h2><ol type="1"><li><strong>关闭杀毒软件</strong>：激活工具会被识别成恶意程序，因此需要先关闭杀毒软件，或者把工具目录添加到免杀目录中。</li><li><strong>从官方渠道安装 Photoshop</strong> ：官方不直接提供 Photoshop 的安装包，需要先行安装 <a href="https://creativecloud.adobe.com/apps/download/creative-cloud"><strong>Creative Cloud Desktop</strong></a>，然后通过 Creative Cloud Desktop 安装 Photoshop，其默认安装位置为 C 盘，如有需要可依次点击 <em>头像 -&gt; 首选项 -&gt; 应用程序 -&gt; 安装位置</em> 进行修改。</li><li><strong>下载激活工具</strong>： <a class="btn-anzhiyu orange" href="https://www.aspark.cc/file/AdobeGenP.zip"   title="点击下载"><i class="anzhiyufont anzhiyu-icon-circle-arrow-right"></i><span>点击下载</span></a></li></ol><h2 id="未完待续......">未完，待续......</h2><h2 id="注意事项"><span id="notification">注意事项</span></h2><ol type="1"><li><p><strong>教程具有时效性</strong>：Adobe 会不断更新其软件和验证机制，不保证对最新版本有效，如果激活失败，可以尝试老版本。</p></li><li><p><strong>尽量不要更新 Adobe 软件</strong>：更新会导致激活失效，此时可以尝试重新运行激活工具，如果激活失败，请自行回退版本。</p></li><li><p><strong>风险提示</strong>：使用激活工具存在一定的法律风险，可能会导致软件无法正常使用或面临法律纠纷。请权衡利弊，慎重选择。</p></li><li><p><strong>经测试可正常激活的版本</strong>: 下面给出截至发布日经过测试可以正常激活的版本，其他版本自行测试。</p></li></ol><div class="note info simple"><ul><li><strong>Photoshop</strong>: 25.11</li><li><strong>Premiere Pro</strong>: 24.5</li><li><strong>After Effects</strong>: 24.5</li><li><strong>Acrobat</strong>: 24.1</li><li><strong>Animate</strong>: 24.0.4</li><li><strong>Character Animator</strong>: 24.2</li><li><strong>Audition</strong>: 24.4.1</li><li><strong>Media Encoder</strong>: 24.5</li><li><strong>Illustrator</strong>: 28.6</li><li><strong>InDesign</strong>: 19.5</li><li><strong>InCopy</strong>: 19.5</li><li><strong>Dreamweaver</strong>: 21.4</li><li><strong>lightroom</strong>: 7.4.1</li></ul></div>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> Adobe </tag>
+            
+            <tag> 激活工具 </tag>
+            
+            <tag> 工具 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>可解释机器学习 —— LIME 篇</title>
       <link href="/posts/1.html"/>
       <url>/posts/1.html</url>
