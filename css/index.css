@@ -21927,6 +21927,7 @@ html.hide-aside .layout > div:first-child {
   display: flex;
   white-space: nowrap;
   overflow-x: scroll;
+  transform: translateY(12.2%)
 }
 
 #catalog-list::-webkit-scrollbar {
