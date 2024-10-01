@@ -1,0 +1,22 @@
+User-agent: *
+
+Allow: /
+Allow: /posts/
+Allow: /categories/
+Allow: /air-conditioner/
+Allow: /tags/
+Allow: /essay/
+Allow: /link/
+Allow: /music/
+Allow: /about/
+
+Disallow: /js/
+Disallow: /css/
+Disallow: /img/
+Disallow: /file/
+Disallow: /twikoo
+Disallow: /live2d/
+
+Sitemap: https://www.aspark.cc/sitemap.xml
+Sitemap: https://www.aspark.cc/page-sitemap.xml
+Sitemap: https://www.aspark.cc/post-sitemap.xml
